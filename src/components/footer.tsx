@@ -11,23 +11,34 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#problem" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Why
-            </a>
-            <a href="#agents" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/agents" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Agents
             </a>
-            <a href="#features" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/features" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Features
+            </a>
+            <a href="/how-it-works" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              How It Works
+            </a>
+            <a href="/pricing" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              Pricing
             </a>
             <a href="#waitlist" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Waitlist
             </a>
           </div>
 
-          <p className="text-xs text-muted-foreground">
-            Built with Claude Code
-          </p>
+          <div className="flex flex-col items-center md:items-end gap-1">
+            <p className="text-xs text-muted-foreground">
+              Built with Claude Code by{" "}
+              <a href="https://nexprove.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-brand transition-colors font-medium">
+                Nexprove
+              </a>
+            </p>
+            <p className="text-xs text-muted-foreground/60">
+              &copy; {new Date().getFullYear()} Nexprove. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
