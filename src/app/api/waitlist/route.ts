@@ -38,7 +38,7 @@ async function sendConfirmationEmail(email: string, position: number): Promise<b
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: process.env.RESEND_FROM_EMAIL || "AgencyOS <waitlist@agencyos.dev>",
+        from: process.env.RESEND_FROM_EMAIL || "AgencyOS <waitlist@nexprove.com>",
         to: [email],
         subject: "You're on the AgencyOS waitlist!",
         html: `
