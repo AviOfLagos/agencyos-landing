@@ -18,16 +18,16 @@ export function Navbar() {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#problem" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/agents" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Why
           </a>
-          <a href="#agents" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Agents
           </a>
-          <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Features
           </a>
-          <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             How It Works
           </a>
           <a
@@ -54,10 +54,10 @@ export function Navbar() {
       {open && (
         <div className="md:hidden border-t border-border/50 bg-background/95 backdrop-blur-xl">
           <div className="px-6 py-4 flex flex-col gap-4">
-            <a href="#problem" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Why</a>
-            <a href="#agents" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Agents</a>
-            <a href="#features" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Features</a>
-            <a href="#how-it-works" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">How It Works</a>
+            <a href="/agents" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Agents</a>
+            <a href="/features" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Features</a>
+            <a href="/how-it-works" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">How It Works</a>
+            <a href="/pricing" onClick={() => setOpen(false)} className="text-sm text-muted-foreground">Pricing</a>
             <a href="#waitlist" onClick={() => setOpen(false)} className="inline-flex items-center justify-center h-10 rounded-full bg-foreground text-background text-sm font-medium">
               Join Waitlist
             </a>
