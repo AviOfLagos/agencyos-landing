@@ -52,7 +52,7 @@ export function Hero() {
             className="mt-6 text-xs text-muted-foreground animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            Built with Claude Code &middot; Powered by AI agents &middot; Free to start
+            Powered by Claude Code from Anthropic &middot; 20+ marketing skills &middot; Infinitely extensible &middot; Free to start
           </p>
         </div>
 

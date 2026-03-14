@@ -2,48 +2,63 @@ export function Features() {
   const features = [
     {
       icon: "📋",
-      title: "Sprint Planning",
-      description: "Organize work into weekly sprints with task dependencies, priorities, and deadlines. See what every agent is working on at a glance.",
+      title: "Sprint Planning & Task Board",
+      description: "Weekly sprints with task dependencies, priorities, deadlines, and blocking detection. Visual board with color-coded statuses. Run /sprint to plan, /board to view.",
     },
     {
       icon: "🔄",
-      title: "Content Waterfall",
-      description: "Research → Strategy → Writing → SEO → Social → Outreach. Each agent's output automatically feeds the next agent's input.",
+      title: "Autonomous Content Waterfall",
+      description: "Research → Strategy → Writing → SEO → Social → Outreach. Trigger-based handoffs — when one agent finishes, the next starts automatically. Zero meetings.",
     },
     {
       icon: "💬",
-      title: "Daily Standups",
-      description: "Automated daily standup reports showing what each agent completed, what's next, and what's blocked. CEO-ready in 30 seconds.",
+      title: "Daily Standups & Heartbeats",
+      description: "Run /standup for a full team report with executive summary. Run /heartbeat for live sync. CEO gets a 30-second TL;DR with blockers and priorities.",
     },
     {
       icon: "📊",
       title: "Marketing Hub Dashboard",
-      description: "Real-time dashboard showing sprints, tasks, agents, calendar, content drafts, and analytics. Built with Next.js and SQLite.",
+      description: "Real-time Next.js dashboard: sprints, tasks, agents, calendar, content drafts, standups, tools directory, and 47 documented commands. Self-hosted.",
     },
     {
       icon: "📱",
-      title: "Multi-Platform Publishing",
-      description: "Compose and schedule content for Twitter/X, Instagram, LinkedIn, Facebook, and TikTok. Platform-native formatting, hashtags, and CTAs.",
+      title: "6-Platform Publishing",
+      description: "Twitter/X, Instagram, LinkedIn, Facebook, TikTok, and email. Platform-native formatting, hashtag strategy, and optimal posting times. Buffer integration for scheduling.",
     },
     {
       icon: "🔍",
-      title: "SEO Engine",
-      description: "Automated SEO audits, keyword research, schema markup, sitemap generation, and competitor analysis. From 38/100 to 80+ in weeks.",
+      title: "Full SEO Suite",
+      description: "10 SEO skills: audits, keyword research, schema markup (JSON-LD), sitemap generation, competitor pages, hreflang, geo SEO, programmatic SEO, and technical SEO.",
     },
     {
-      icon: "✉️",
-      title: "Email & Outreach",
-      description: "Cold email sequences, dealer outreach, newsletter writing, and lead capture. Integrated with Brevo for sending.",
+      icon: "📹",
+      title: "Video Intelligence",
+      description: "Extract transcripts from 1,000+ video platforms via yt-dlp. Auto-save marketing strategies from competitor content. Searchable strategy library by category.",
     },
     {
       icon: "🧠",
-      title: "Agent Memory",
-      description: "Each agent has short-term and long-term memory. They remember past work, learn from feedback, and improve over time.",
+      title: "Agent Memory System",
+      description: "Short-term memory (active context, blockers), long-term memory (learnings, patterns). Agents remember past work, brand voice, and product positioning across sessions.",
+    },
+    {
+      icon: "✉️",
+      title: "Email & Cold Outreach",
+      description: "Cold email sequences, nurture campaigns, newsletters, and lead capture. Brevo integration (300 emails/day free). SPF/DKIM/DMARC setup guides included.",
+    },
+    {
+      icon: "🎨",
+      title: "Brand-Aware Design System",
+      description: "AI image prompt injection with your brand colors, typography, and photography style. Canva integration. Every visual asset is automatically on-brand.",
+    },
+    {
+      icon: "🔒",
+      title: "Quality Gates & Escalation",
+      description: "Auto-approve content that passes quality checks. 4-level escalation (Agent → Cross-agent → CMO → CEO). Only humans approve money, credentials, and legal decisions.",
     },
     {
       icon: "🔗",
-      title: "Tool Integrations",
-      description: "Buffer for social scheduling, Google Analytics, Search Console, Canva, Brevo — all connected through MCP servers and APIs.",
+      title: "MCP Tool Ecosystem",
+      description: "Buffer, GA4, Search Console, Canva, Brevo, Meta Business Suite, TikTok Studio — connected via MCP servers. Add any tool without changing agent code.",
     },
   ];
 
