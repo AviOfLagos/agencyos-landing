@@ -84,10 +84,10 @@ export default function PricingPage() {
                 </div>
                 <h3 className="text-lg font-bold text-foreground">Pro</h3>
                 <p className="text-sm text-muted-foreground mt-1">
-                  For growing businesses and agencies
+                  For growing businesses and teams
                 </p>
                 <div className="mt-6">
-                  <span className="text-4xl font-bold text-foreground">$49</span>
+                  <span className="text-4xl font-bold text-foreground">$12</span>
                   <span className="text-muted-foreground text-sm">/month</span>
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">
@@ -96,11 +96,11 @@ export default function PricingPage() {
                 <ul className="mt-8 space-y-3">
                   {[
                     "Everything in Starter",
-                    "Managed hosting (cloud)",
+                    "Managed account with all agents",
                     "Priority onboarding call",
-                    "Custom agent templates",
-                    "Advanced analytics dashboard",
-                    "Multi-brand support",
+                    "Pre-configured brand setup",
+                    "Autonomous heartbeat daemon",
+                    "Multi-platform publishing",
                     "Email & chat support",
                     "SearXNG search integration",
                   ].map((item) => (
@@ -123,28 +123,29 @@ export default function PricingPage() {
                 </div>
               </div>
 
-              {/* Enterprise */}
+              {/* Business */}
               <div className="p-8 rounded-2xl border border-border/60 bg-background">
-                <h3 className="text-lg font-bold text-foreground">Enterprise</h3>
+                <h3 className="text-lg font-bold text-foreground">Business</h3>
                 <p className="text-sm text-muted-foreground mt-1">
-                  For agencies managing multiple clients
+                  Cloud-hosted, fully managed for agencies
                 </p>
                 <div className="mt-6">
-                  <span className="text-4xl font-bold text-foreground">Custom</span>
+                  <span className="text-4xl font-bold text-foreground">$49</span>
+                  <span className="text-muted-foreground text-sm">/month</span>
                 </div>
                 <p className="text-xs text-muted-foreground mt-1">
-                  Contact us for pricing
+                  Hosted on Vercel Cloud — no setup needed
                 </p>
                 <ul className="mt-8 space-y-3">
                   {[
                     "Everything in Pro",
-                    "Unlimited brands/clients",
+                    "Cloud-hosted (Vercel infrastructure)",
+                    "Multi-brand / multi-client support",
                     "Custom agent development",
-                    "API access for integrations",
-                    "Dedicated infrastructure",
-                    "SLA & uptime guarantees",
-                    "White-label option",
-                    "Dedicated account manager",
+                    "Analytics dashboard",
+                    "Team collaboration features",
+                    "Dedicated support channel",
+                    "99.9% uptime SLA",
                   ].map((item) => (
                     <li
                       key={item}
@@ -218,7 +219,7 @@ export default function PricingPage() {
                 </tbody>
               </table>
               <p className="text-xs text-muted-foreground mt-4 text-center">
-                * Plus Claude Code subscription (~$20/month). Managed hosting available at $49/month.
+                * Plus Claude Code subscription (~$20/month). Pro plan at $12/month. Cloud-hosted Business plan at $49/month.
               </p>
             </div>
           </div>

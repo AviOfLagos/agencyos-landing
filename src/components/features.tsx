@@ -43,12 +43,12 @@ export function Features() {
     {
       icon: "✉️",
       title: "Email & Cold Outreach",
-      description: "Cold email sequences, nurture campaigns, newsletters, and lead capture. Brevo integration (300 emails/day free). SPF/DKIM/DMARC setup guides included.",
+      description: "Cold email sequences, nurture campaigns, newsletters, and lead capture. Resend integration for transactional email. SPF/DKIM/DMARC setup guides included.",
     },
     {
       icon: "🎨",
       title: "Brand-Aware Design System",
-      description: "AI image prompt injection with your brand colors, typography, and photography style. Canva integration. Every visual asset is automatically on-brand.",
+      description: "AI image prompt injection with your brand colors, typography, and photography style. Design tool integration ready. Every visual asset is automatically on-brand.",
     },
     {
       icon: "🔒",
@@ -58,7 +58,7 @@ export function Features() {
     {
       icon: "🔗",
       title: "MCP Tool Ecosystem",
-      description: "Buffer, GA4, Search Console, Canva, Brevo, Meta Business Suite, TikTok Studio — connected via MCP servers. Add any tool without changing agent code.",
+      description: "Connect any marketing tool via MCP servers — Buffer, GA4, Search Console, Resend, and more. Extensible architecture means you can add tools without changing agent code.",
     },
   ];
 

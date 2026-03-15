@@ -1,6 +1,16 @@
 export function Agents() {
   const agents = [
     {
+      name: "Avi",
+      role: "Project Owner (Autonomous PM)",
+      emoji: "👔",
+      color: "bg-slate-700",
+      colorLight: "bg-slate-700/10",
+      skills: ["Sprint planning", "Decision-making", "Agent coordination", "Escalation management"],
+      description:
+        "The autonomous CEO proxy. Runs 4-hour heartbeat cycles, makes all operational decisions, unblocks agents, and never waits for human confirmation unless truly needed.",
+    },
+    {
       name: "Tunde",
       role: "Content Writer",
       emoji: "✍️",
@@ -80,7 +90,7 @@ export function Agents() {
             Meet the Team
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-            7 agents. Zero salaries.
+            8 agents. Zero salaries.
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
             Each agent has their own personality, specialized skills, memory, and task queue.

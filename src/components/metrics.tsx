@@ -1,6 +1,6 @@
 export function Metrics() {
   const metrics = [
-    { value: "7", label: "AI Agents", sublabel: "Specialized roles" },
+    { value: "8", label: "AI Agents", sublabel: "Including Avi, the autonomous PM" },
     { value: "42", label: "Tasks / Sprint", sublabel: "Average throughput" },
     { value: "6x", label: "Faster", sublabel: "Than traditional teams" },
     { value: "$0", label: "Salaries", sublabel: "Zero headcount" },
@@ -23,7 +23,7 @@ export function Metrics() {
       agencyos: "1 day",
     },
     {
-      task: "Dealer outreach sequence (3 emails)",
+      task: "Cold outreach sequence (3 emails)",
       traditional: "3 days",
       agencyos: "1 hour",
     },
